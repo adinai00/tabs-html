@@ -1,0 +1,99 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .tabs img{
+    width: 200px;
+}
+.tabs input{
+    display: none;
+}
+#js:checked ~ .html,
+#js:checked ~ .css {
+    display: none;
+} */
+
+.labels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.labels label{
+    margin: 0 10px;
+    padding: 3px 10px;
+    background: blue;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.tabs img{
+    width: 500px;
+    height: 400px;
+}
+
+#naryn:checked ~.jalal,
+#naryn:checked ~.talas,
+#naryn:checked ~.kol,
+#naryn:checked ~.chui,
+#naryn:checked ~.osh,
+#naryn:checked ~.batken{
+    display: none;
+}
+#jalal:checked ~.naryn,
+#jalal:checked ~.talas,
+#jalal:checked ~.kol,
+#jalal:checked ~.chui,
+#jalal:checked ~.osh,
+#jalal:checked ~.batken{
+    display: none;
+}
+#talas:checked ~.naryn,
+#talas:checked ~.jalal,
+#talas:checked ~.kol,
+#talas:checked ~.chui,
+#talas:checked ~.osh,
+#talas:checked ~.batken{
+    display: none;
+}
+#kol:checked ~.naryn,
+#kol:checked ~.jalal,
+#kol:checked ~.talas,
+#kol:checked ~.chui,
+#kol:checked ~.osh,
+#kol:checked ~.batken{
+    display: none;
+}
+#chui:checked ~.naryn,
+#chui:checked ~.jalal,
+#chui:checked ~.talas,
+#chui:checked ~.kol,
+#chui:checked ~.osh,
+#chui:checked ~.batken{
+    display: none;
+}
+#osh:checked ~.naryn,
+#osh:checked ~.jalal,
+#osh:checked ~.talas,
+#osh:checked ~.kol,
+#osh:checked ~.chui,
+#osh:checked ~.batken{
+    display: none;
+}
+#batken:checked ~.naryn,
+#batken:checked ~.jalal,
+#batken:checked ~.talas,
+#batken:checked ~.kol,
+#batken:checked ~.chui,
+#batken:checked ~.osh{
+    display: none;
+}
+
+
+
+
